@@ -183,23 +183,6 @@ function MotionController() {
         card.addEventListener("mouseenter", enter);
         card.addEventListener("mouseleave", leave);
       });
-
-    let lastScroll = window.scrollY;
-    ScrollTrigger.create({
-      start: 80,
-      end: "max",
-      onUpdate: (self) => {
-        const current = self.scroll();
-        const shouldHide = current > lastScroll && current > 160;
-        gsap.to(".site-header", {
-          yPercent: shouldHide ? -100 : 0,
-          duration: 0.35,
-          ease: "power2.out",
-          overwrite: true,
-        });
-        lastScroll = current;
-      },
-    });
   });
 
   return null;

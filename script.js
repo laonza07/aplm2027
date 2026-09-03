@@ -50,3 +50,19 @@ if (floatingCta && floatingToggle && floatingMenu) {
     }
   });
 }
+
+// ── Header Scroll-Lock (ล็อกเมนูด้านบนเมื่อเลื่อนหน้าจอ) ──
+const siteHeader = document.querySelector(".site-header");
+if (siteHeader) {
+  const updateHeaderScrollState = () => {
+    if (window.scrollY > 30) {
+      siteHeader.classList.add("is-scrolled");
+    } else {
+      siteHeader.classList.remove("is-scrolled");
+    }
+  };
+
+  window.addEventListener("scroll", updateHeaderScrollState, { passive: true });
+  updateHeaderScrollState();
+}
+

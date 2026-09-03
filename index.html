@@ -85,38 +85,295 @@
           </button>
 
           <div class="nav-menu" id="primary-menu">
-            <a href="#">หน้าแรก</a>
+
+            <!-- หน้าแรก -->
+            <div class="dropdown">
+              <button type="button">หน้าแรก</button>
+              <div class="dropdown__panel dropdown__panel--mega">
+                <div class="dropdown__header">
+                  <strong>ยินดีต้อนรับ</strong>
+                  <span>เข้าถึงข้อมูลหลักของสำนักงาน</span>
+                </div>
+                <div class="dropdown__grid">
+                  <a href="#quick-services">
+                    <span class="dropdown__icon dropdown__icon--blue">🎓</span>
+                    <span class="dropdown__label">
+                      <strong>บริการนักศึกษา</strong>
+                      <small>ระบบบริการด่วนสำหรับนักศึกษา</small>
+                    </span>
+                  </a>
+                  <a href="#vision">
+                    <span class="dropdown__icon dropdown__icon--navy">🏛</span>
+                    <span class="dropdown__label">
+                      <strong>วิสัยทัศน์และพันธกิจ</strong>
+                      <small>เป้าหมายและทิศทางของสำนัก</small>
+                    </span>
+                  </a>
+                  <a href="#calendar">
+                    <span class="dropdown__icon dropdown__icon--green">📅</span>
+                    <span class="dropdown__label">
+                      <strong>ปฏิทินการศึกษา</strong>
+                      <small>กำหนดการและวันสำคัญ</small>
+                    </span>
+                  </a>
+                  <a href="#news">
+                    <span class="dropdown__icon dropdown__icon--gold">📰</span>
+                    <span class="dropdown__label">
+                      <strong>ข่าวประชาสัมพันธ์</strong>
+                      <small>ข่าวสารและประกาศล่าสุด</small>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- บริการ -->
             <div class="dropdown">
               <button type="button">บริการ</button>
-              <div class="dropdown__panel">
-                <a href="#">ระบบตรวจสอบผลการเรียน</a>
-                <a href="#">ตาราง/แผนการเรียน</a>
-                <a href="#">ใบรายชื่อนักศึกษา</a>
-                <a href="#">ระบบตารางเรียน / ตารางสอน</a>
-                <a href="#">ระบบรับสมัครเรียน</a>
+              <div class="dropdown__panel dropdown__panel--mega">
+                <div class="dropdown__header">
+                  <strong>ระบบบริการวิชาการ</strong>
+                  <span>เข้าถึงระบบบริการนักศึกษาและอาจารย์</span>
+                </div>
+                <div class="dropdown__grid dropdown__grid--2col">
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--blue">📊</span>
+                    <span class="dropdown__label">
+                      <strong>ตรวจสอบผลการเรียน</strong>
+                      <small>ระบบตรวจสอบเกรดและผลการศึกษา</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--green">📋</span>
+                    <span class="dropdown__label">
+                      <strong>ตาราง/แผนการเรียน</strong>
+                      <small>ค้นหาตารางเรียนและแผนรายวิชา</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--navy">👥</span>
+                    <span class="dropdown__label">
+                      <strong>ใบรายชื่อนักศึกษา</strong>
+                      <small>พิมพ์ใบรายชื่อนักศึกษาแยกตามหมู่เรียน</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--crimson">🕐</span>
+                    <span class="dropdown__label">
+                      <strong>ระบบตารางเรียน / ตารางสอน</strong>
+                      <small>ตรวจสอบตารางเรียนสอนรายบุคคล</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--gold">🏠</span>
+                    <span class="dropdown__label">
+                      <strong>ระบบตารางการใช้ห้อง</strong>
+                      <small>ตรวจสอบและจองห้องเรียน</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--green">✏️</span>
+                    <span class="dropdown__label">
+                      <strong>ระบบรับสมัครเรียน</strong>
+                      <small>สมัครเรียนออนไลน์สำหรับผู้สนใจ</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--blue">🪪</span>
+                    <span class="dropdown__label">
+                      <strong>พิมพ์บัตรลงทะเบียน</strong>
+                      <small>พิมพ์บัตรลงทะเบียนเรียนรายภาค</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--navy">📜</span>
+                    <span class="dropdown__label">
+                      <strong>ประกาศกระทรวง/ระเบียบ</strong>
+                      <small>ประกาศและระเบียบที่เกี่ยวข้อง</small>
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
-            <a href="#admission">รับสมัครนักศึกษา</a>
+
+            <!-- รับสมัครนักศึกษา -->
+            <div class="dropdown">
+              <button type="button">รับสมัครนักศึกษา</button>
+              <div class="dropdown__panel dropdown__panel--mega">
+                <div class="dropdown__header">
+                  <strong>งานรับสมัครนักศึกษา</strong>
+                  <span>ข้อมูลการรับสมัครและคุณสมบัติผู้สมัคร</span>
+                </div>
+                <div class="dropdown__grid">
+                  <a href="#admission">
+                    <span class="dropdown__icon dropdown__icon--gold">📝</span>
+                    <span class="dropdown__label">
+                      <strong>สมัครเรียนออนไลน์</strong>
+                      <small>กรอกใบสมัครและอัปโหลดเอกสาร</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--blue">📄</span>
+                    <span class="dropdown__label">
+                      <strong>ประกาศรับสมัคร</strong>
+                      <small>ประกาศรับสมัครนักศึกษาใหม่ล่าสุด</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--green">✅</span>
+                    <span class="dropdown__label">
+                      <strong>ตรวจสอบสถานะ</strong>
+                      <small>ติดตามผลการสมัครและสถานะเอกสาร</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--crimson">🎯</span>
+                    <span class="dropdown__label">
+                      <strong>หลักสูตรที่เปิดรับ</strong>
+                      <small>รายละเอียดสาขาวิชาและคุณสมบัติ</small>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- คู่มือ/ดาวน์โหลด -->
             <div class="dropdown">
               <button type="button">คู่มือ/ดาวน์โหลด</button>
-              <div class="dropdown__panel">
-                <a href="#calendar">ปฏิทินการศึกษา</a>
-                <a href="#">ดาวน์โหลดคำร้องทั่วไป</a>
-                <a href="#">คู่มือนักศึกษา</a>
-                <a href="#">คู่มือให้บริการ</a>
-                <a href="#">สถิติการให้บริการ</a>
+              <div class="dropdown__panel dropdown__panel--mega">
+                <div class="dropdown__header">
+                  <strong>เอกสารและคู่มือ</strong>
+                  <span>ดาวน์โหลดเอกสาร แบบฟอร์ม และคู่มือต่าง ๆ</span>
+                </div>
+                <div class="dropdown__grid dropdown__grid--2col">
+                  <a href="#calendar">
+                    <span class="dropdown__icon dropdown__icon--crimson">📅</span>
+                    <span class="dropdown__label">
+                      <strong>ปฏิทินการศึกษา</strong>
+                      <small>ดาวน์โหลด PDF ปฏิทินประจำปี</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--blue">📥</span>
+                    <span class="dropdown__label">
+                      <strong>ดาวน์โหลดคำร้องทั่วไป</strong>
+                      <small>แบบฟอร์มคำร้องสำหรับนักศึกษา</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--navy">📈</span>
+                    <span class="dropdown__label">
+                      <strong>สถิติข้อมูลนักศึกษา</strong>
+                      <small>รายงานสถิติจำนวนนักศึกษาแต่ละปี</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--green">📖</span>
+                    <span class="dropdown__label">
+                      <strong>คู่มือนักศึกษา</strong>
+                      <small>ระเบียบการ ข้อบังคับ และข้อมูลจำเป็น</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--gold">📘</span>
+                    <span class="dropdown__label">
+                      <strong>คู่มือปฏิบัติงาน/ให้บริการ</strong>
+                      <small>คู่มือการทำงานสำหรับเจ้าหน้าที่</small>
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="dropdown__icon dropdown__icon--crimson">📊</span>
+                    <span class="dropdown__label">
+                      <strong>สถิติการให้บริการ (OASS & ITA)</strong>
+                      <small>รายงานสถิติบริการและความโปร่งใส</small>
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
+
+            <!-- เกี่ยวกับเรา -->
             <div class="dropdown">
               <button type="button">เกี่ยวกับเรา</button>
-              <div class="dropdown__panel">
-                <a href="#vision">ประวัติสำนัก</a>
-                <a href="#vision">วิสัยทัศน์และพันธกิจ</a>
-                <a href="#vision">โครงสร้างการบริหาร</a>
-                <a href="#vision">ยุทธศาสตร์สำนัก</a>
+              <div class="dropdown__panel dropdown__panel--mega">
+                <div class="dropdown__header">
+                  <strong>เกี่ยวกับสำนัก</strong>
+                  <span>ข้อมูลองค์กร บุคลากร และยุทธศาสตร์</span>
+                </div>
+                <div class="dropdown__grid">
+                  <a href="#vision">
+                    <span class="dropdown__icon dropdown__icon--navy">🏛</span>
+                    <span class="dropdown__label">
+                      <strong>ประวัติสำนัก</strong>
+                      <small>ความเป็นมาและพัฒนาการของสำนัก</small>
+                    </span>
+                  </a>
+                  <a href="#vision">
+                    <span class="dropdown__icon dropdown__icon--gold">🔭</span>
+                    <span class="dropdown__label">
+                      <strong>วิสัยทัศน์และพันธกิจ</strong>
+                      <small>เป้าหมายและทิศทางการพัฒนา</small>
+                    </span>
+                  </a>
+                  <a href="#vision">
+                    <span class="dropdown__icon dropdown__icon--blue">👔</span>
+                    <span class="dropdown__label">
+                      <strong>โครงสร้างการบริหาร</strong>
+                      <small>ผังบริหารและข้อมูลบุคลากร</small>
+                    </span>
+                  </a>
+                  <a href="#vision">
+                    <span class="dropdown__icon dropdown__icon--green">📌</span>
+                    <span class="dropdown__label">
+                      <strong>ยุทธศาสตร์สำนัก</strong>
+                      <small>แผนยุทธศาสตร์และการปฏิบัติตามแผน</small>
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
-            <a href="#faq">ถาม-ตอบ</a>
+
+            <!-- ถาม-ตอบ -->
+            <div class="dropdown">
+              <button type="button">ถาม-ตอบ</button>
+              <div class="dropdown__panel dropdown__panel--mega">
+                <div class="dropdown__header">
+                  <strong>ช่วยเหลือและติดต่อ</strong>
+                  <span>คำถามที่พบบ่อยและช่องทางติดต่อ</span>
+                </div>
+                <div class="dropdown__grid">
+                  <a href="#faq">
+                    <span class="dropdown__icon dropdown__icon--blue">❓</span>
+                    <span class="dropdown__label">
+                      <strong>คำถามที่พบบ่อย</strong>
+                      <small>รวมคำถามและคำตอบยอดนิยม</small>
+                    </span>
+                  </a>
+                  <a href="#quick-contact">
+                    <span class="dropdown__icon dropdown__icon--green">✉️</span>
+                    <span class="dropdown__label">
+                      <strong>ส่งเรื่องถึงสำนักงาน</strong>
+                      <small>ฟอร์มติดต่อด่วนออนไลน์</small>
+                    </span>
+                  </a>
+                  <a href="#contact">
+                    <span class="dropdown__icon dropdown__icon--gold">📞</span>
+                    <span class="dropdown__label">
+                      <strong>ข้อมูลติดต่อ</strong>
+                      <small>เบอร์โทร อีเมล และแผนที่</small>
+                    </span>
+                  </a>
+                  <a href="https://www.facebook.com/ALPMSSKRUNEWSUPDATE" target="_blank" rel="noopener">
+                    <span class="dropdown__icon dropdown__icon--navy">💬</span>
+                    <span class="dropdown__label">
+                      <strong>Facebook / Messenger</strong>
+                      <small>สอบถามผ่านโซเชียลมีเดีย</small>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <a class="login-link" href="#">เข้าสู่ระบบ</a>
           </div>
         </div>
