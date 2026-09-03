@@ -287,6 +287,7 @@ img {
 }
 
 .nav-menu {
+  margin-left: auto;
   justify-content: flex-end;
   gap: 5px;
   font-weight: 600;
@@ -2070,7 +2071,7 @@ html {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: auto;
+  margin-left: 12px;
   flex-shrink: 0;
 }
 
@@ -2271,6 +2272,10 @@ html {
 @media (max-width: 1020px) {
   .navbar__inner {
     gap: 12px;
+  }
+
+  .navbar__actions {
+    margin-left: auto;
   }
 }
 
