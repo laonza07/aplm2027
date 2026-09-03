@@ -67,23 +67,6 @@
             </span>
           </a>
 
-          <button
-            class="theme-toggle"
-            type="button"
-            aria-label="เปลี่ยนเป็นโหมดกลางคืน"
-            aria-pressed="false"
-            title="เปลี่ยนโทนสี"
-          >
-            <span class="theme-toggle__icon" aria-hidden="true">☀</span>
-            <span class="theme-toggle__label">กลางวัน</span>
-          </button>
-
-          <button class="nav-toggle" type="button" aria-label="เปิดเมนู" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-
           <div class="nav-menu" id="primary-menu">
 
             <!-- หน้าแรก -->
@@ -375,6 +358,25 @@
             </div>
 
             <a class="login-link" href="#">เข้าสู่ระบบ</a>
+          </div>
+
+          <div class="navbar__actions">
+            <button
+              class="theme-toggle"
+              type="button"
+              aria-label="เปลี่ยนเป็นโหมดกลางคืน"
+              aria-pressed="false"
+              title="เปลี่ยนโหมดสี (กลางวัน / กลางคืน)"
+            >
+              <span class="theme-toggle__icon" aria-hidden="true">☀</span>
+              <span class="theme-toggle__label sr-only">กลางวัน</span>
+            </button>
+
+            <button class="nav-toggle" type="button" aria-label="เปิดเมนู" aria-expanded="false">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
           </div>
         </div>
       </nav>
